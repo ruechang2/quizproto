@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         present(nav, animated: true, completion: nil)
     }
     
+    
     private func fetchQuizzes() -> [Quiz] {
         return [
             QuizFixture.test(
